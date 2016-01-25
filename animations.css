@@ -1,0 +1,48 @@
+h1{
+    font-family: Raleway, Merriweather,Century Gothic;
+    font-size: 500%;
+}
+
+h2{
+    font-family: Raleway, Merriweather,Century Gothic;
+    font-size: 350%;
+}
+
+html{
+    height: 100%;
+    background: linear-gradient(to bottom, white, white, white, white, dodgerblue);
+    background-position: center;
+}
+body{
+    /*background: linear-gradient(to right, white, rgb(24,24,24));
+    background-position: center;*/
+
+
+    background-size: 50% auto;
+
+}
+
+#icon{
+    animation-delay: 10s;
+}
+
+#undertitle{
+    height: 30px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+
+}
+
+#undertitle:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+
+}

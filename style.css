@@ -1,0 +1,37 @@
+.modernizr-slideshow
+{
+    list-style-type: none;
+}
+
+.modernizr-slideshow li:nth-child(1) span { background-image: url(cover1.jpg) }
+.modernizr-slideshow li:nth-child(2) span { background-image: url(cover2.jpg) }
+.modernizr-slideshow li:nth-child(3) span { background-image: url(cover3.jpg) }
+.modernizr-slideshow li:nth-child(4) span { background-image: url(cover4.jpg) }
+.modernizr-slideshow li:nth-child(5) span { background-image: url(cover5.jpg) }
+.modernizr-slideshow li:nth-child(6) span { background-image: url(cover6.jpg) }
+
+h1{
+    font-family: Raleway, Merriweather,Century Gothic;
+}
+
+p{
+    font-family: Raleway, Merriweather,Century Gothic;
+}
+
+#undertitle{
+    height: 30px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+}
+
+#undertitle:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;

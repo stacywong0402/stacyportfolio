@@ -1,0 +1,11 @@
+br {
+    line-height: 10px;
+}
+
+.text-muted{
+    color: dodgerblue;
+}
+
+.lead{
+    color: rgb(88,88,88) ;
+}
